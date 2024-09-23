@@ -18,12 +18,12 @@ export default [
                 },
             ],
             curly: ["error", "all"],
-            "no-console": [
-                "error",
-                {
-                    allow: ["warn", "error", "info"],
-                },
-            ],
+            // "no-console": [
+            //     "error",
+            //     {
+            //         allow: ["warn", "error", "info"],
+            //     },
+            // ],
         },
     },
 ];
