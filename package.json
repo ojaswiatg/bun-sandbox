@@ -1,0 +1,26 @@
+{
+    "name": "optimytext",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "lint": "tsc --noEmit && bunx eslint .",
+        "lint:fix": "tsc --noEmit && bunx eslint --fix .",
+        "format": "prettier --write .",
+        "clean": "rm -rf node_modules"
+    },
+    "dependencies": {
+        "lodash-es": "^4.17.21",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.11.0",
+        "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+        "@types/lodash-es": "^4.17.12",
+        "@types/node": "^20",
+        "eslint": "^9.11.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "globals": "^15.9.0",
+        "typescript": "5.5.4",
+        "typescript-eslint": "^8.6.0"
+    }
+}
