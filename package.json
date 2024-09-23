@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
+        "start": "bun index.ts",
         "lint": "tsc --noEmit && bunx eslint .",
         "lint:fix": "tsc --noEmit && bunx eslint --fix .",
         "format": "prettier --write .",
